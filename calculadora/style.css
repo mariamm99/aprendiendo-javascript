@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+    align-content: center;  
+}
+
+div{
+    display: grid;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-style: solid;
+    background-color: #eeeeee;
+    border: 2px solid #CCCCCC;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    width: 30%;
+    grid-gap: 6px;
+}
+
+input[type=button]{
+    *background-color: gray;
+    height: 60px;
+}
+
+input[type=text]{
+    grid-column: span 4;
+    line-height: 50px;
+}
+
+
+

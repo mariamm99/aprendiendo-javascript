@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="María Moreno Muñoz">
+    <script src="indexgato.js"></script>
+    <script src="Gato.js"></script>
+
+    <noscript>
+        <p>Tiene JavaScript desabilitado</p>
+        <p>Está página contiene javascript y tiene javascript desabilitado o bloqueado por lo que no esta
+            viendo la página como es. </p>
+    </noscript>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>lindo gatito</h1>
+    </header>
+
+    <main>
+        <!-- para pasar los parametros del gato -->
+        <form action="#">
+            <p><label for="nombreIn">Nombre:</label>
+                <input type="text" name="nombreIn" id="nombreIn">
+            </p>
+
+            <p> <label for="razaIn">Raza</label>
+                <select name="razaIn" id="razaIn">
+                    <option value="Mao Egipcio">Mao Egipcio</option>
+                    <option value="Persa">Persa</option>
+                    <option value="Siamés">Siamés</option>
+                    <option value="Esfinge">Esfinge</option>
+                    <option value="Siberiano">Siberiano</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="pesoIn">Peso</label>
+                <input type="number" name="pesoIn" id="pesoIn" min="1" max="15">
+            </p>
+
+            <p>
+                <label for="fechIn">Fecha de nacimiento</label>
+                <input type="date" name="fechaIn" id="fechaIn" min="1990-12-31" max="2021-12-31" >
+            </p>
+
+            <p><input type="button" value="crearGato" name="crearGato" id="crear"></p>
+
+
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
