@@ -1,5 +1,5 @@
 # aprendiendo-javascript
-Este repositorio está formado por 3 ejercicos diferentes para el aprendizaje de Java. 
+Este repositorio está formado por 3 ejercicos diferentes para el aprendizaje de JavaScript. 
 
 ## calculadora
 Acitividad para la creación de elementos desde js.
