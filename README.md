@@ -8,4 +8,4 @@ Acitividad para la creación de elementos desde js.
 Consiste en crear un gato desde un formulario. Aprendiendo a crear clases con prototype.
 
 ## Expresiones regulares.
-Formulario que comprueba las clases mediante expresiones regulares.
+Formulario que realiza la correción de los datos mediante expresiones regulares.
